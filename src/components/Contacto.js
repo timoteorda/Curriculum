@@ -43,7 +43,7 @@ const Contacto = () => {
         </div>
         <div className='rowRedes'>
           <a href="https://github.com/timoteorda" target="_blank"><img src="../img/githubContacto.png" alt="Icono WhatsApp"/></a>
-          <a className='visitaRed' href="https://github.com/timoteorda" target="_blank"><h4>Visitá mi Github!</h4></a>
+          <a className='visitaRed' href="https://github.com/timoteorda" target="_blank"><h4>Conocé mis proyectos!</h4></a>
         </div>
       </div>
     </div>
