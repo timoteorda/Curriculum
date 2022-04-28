@@ -1,0 +1,52 @@
+.tituloPaginaProyectos{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+    font-weight: bold;
+}
+
+.proyecto{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2rem;
+    margin-bottom: 15rem;
+}
+
+.tituloProyecto{
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+.explicacionProyecto{
+    margin-top: 2rem;
+    margin-left: 10%;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    width: 80%;
+}
+
+.carouselWhaikau{
+    margin-left: 10%;
+    width: 80%;
+}
+
+
+.botonProbarProyecto{
+    margin-top: 5rem;
+    margin-left: 40%;
+    margin-bottom: 2rem;
+    border: none;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(18,18,18);
+    width: 15rem;
+    height: 3rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.botonProbarProyecto:hover{
+    background-color: rgb(50, 50, 50);
+}

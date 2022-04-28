@@ -2,7 +2,39 @@
   width: 80%;
   margin-left: 10%;
   display: flex;
+  flex-direction: row;
   margin-bottom: 5rem;
+  justify-content: space-around;
+}
+
+.rowInformacion{
+    margin-top: 2rem;
+    display: flex;
+}
+
+.informacionPersonal{
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+}
+
+.estudiosContacto{
+    display: flex;
+    margin-top: 1rem;
+}
+
+.iconoEstudio{
+    margin-top: 1rem;
+}
+
+.listaEstudios{
+    margin-left: 1rem;
+}
+
+.textoLiEstudios{
+    color: black;
+    font-weight: bolder;
+    margin-left: -2rem;
 }
 
 .tituloRedes{
@@ -20,10 +52,11 @@
 .rowRedes{
     margin-top: 2rem;
     display: flex;
+    margin-left: 8rem;
 }
 
 .visitaRed{
-    margin-top: 1.2rem;
+    margin-top: 0.2rem;
     margin-left: 1rem;
     text-decoration: none;
     color: black;
