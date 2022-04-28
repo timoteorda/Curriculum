@@ -1,0 +1,38 @@
+footer{
+    height: 25vh;
+}
+
+.footer{
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(18,18,18);
+    text-align: center;
+}
+
+.containerLinksFooter{
+    margin-top: 1.2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.tituloFooter{
+    font-size: 0.9rem;
+    text-decoration: none;
+    margin-top: 1rem;
+    color: white;
+    font-weight: bold;
+}
+
+.tituloFooter:hover{
+    color: lightgray;
+}
+
+.subFooter{
+    height: 2rem;
+}
+
+.derechos{
+    margin-left: 35%;
+    margin-top: 1rem;
+}

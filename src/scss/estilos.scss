@@ -1,0 +1,24 @@
+@import "./diseño/navBar";
+@import "./diseño/footer";
+@import "./diseño/imagenes";
+@import "./diseño/main";
+@import "./diseño/contacto";
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+main {
+    height: auto;
+}
+
+li{
+    list-style: none;
+}

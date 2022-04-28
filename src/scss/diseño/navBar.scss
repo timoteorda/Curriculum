@@ -1,0 +1,50 @@
+header{
+    height: 25vh;
+}
+
+
+li a {
+    text-decoration: none;
+}
+
+li {
+    list-style:none;
+}
+
+.navBar{
+    position: fixed;
+    width: 100%;
+    height: 26vh;
+    background-color: white;
+    z-index: 10;
+    box-shadow: 1px 1px 3px #999;
+}
+
+.navegacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ulNav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+    margin-right: 5rem;
+}
+
+.dropbtn {
+    background-color: white;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.dropbtn:hover{
+    color: gray;
+}
+
+
