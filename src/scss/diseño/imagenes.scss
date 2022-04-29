@@ -22,6 +22,10 @@
         height: 20rem;
         margin-top: 3rem;
     }
+    @include computadora{
+        margin-left: 3rem;
+        margin-top: 4rem;
+    }
 }
 
 .fotoWhaikau{

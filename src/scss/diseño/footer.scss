@@ -44,4 +44,7 @@ footer{
         margin-left: 1rem;
         font-size: 0.9rem;
     }
+    @include computadora{
+        margin-left: 36%;
+    }
 }

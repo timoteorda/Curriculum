@@ -97,6 +97,9 @@
     @include telefono{
         margin-left: 11%;
     }
+    @include computadora{
+        margin-left: 42%;
+    }
 }
 
 .botonMain:hover{

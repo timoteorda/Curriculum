@@ -66,6 +66,10 @@
         margin-left: 2rem;
         margin-bottom: 2rem;
     }
+    @include computadora{
+        margin-left: 43%;
+    }
+    
 }
 
 .botonProbarProyecto:hover{
