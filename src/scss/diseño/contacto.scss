@@ -48,6 +48,9 @@
 .tituloRedes{
     text-align: center;
     font-size: 2rem;
+    @include telefono{
+        margin-top: 2rem;
+    }
 }
 
 .iconosContacto{

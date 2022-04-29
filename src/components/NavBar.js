@@ -16,7 +16,7 @@ const NavBar = () => {
                           <Link to="/" className='dropbtn'>INICIO</Link>
                           </div>                        
                           <div className='dropdown'>
-                          <Link to="/misProyectos" className='dropbtn'>MIS PROYECTOS</Link>                
+                          <Link to="/misProyectos" className='dropbtn'>PROYECTOS</Link>                
                           </div>
                           <div>
                           <Link to='/contacto' className='dropbtn'>CONTACTO</Link>   
