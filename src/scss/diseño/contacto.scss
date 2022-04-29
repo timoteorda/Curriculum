@@ -61,7 +61,17 @@
     @include telefono{
         width: 90%;
     }
+    @include computadora{
+        margin-left: 2rem;
+    }
 }
+
+.iconoUbicacionTelefono{
+    @include telefono{
+        height: 30px;
+        margin-top: 0.5rem;
+    }
+}	
 
 .rowRedes{
     margin-top: 2rem;
@@ -69,6 +79,9 @@
     margin-left: 8rem;
     @include telefono{
         margin-left: 0rem;
+    }
+    @include computadora{
+        margin-left: 15rem;
     }
 }
 

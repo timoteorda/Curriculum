@@ -6,7 +6,7 @@ const Contacto = () => {
       <div className='iconosContacto'>
         <h1 className='tituloRedes'>Acerca de mi:</h1>
           <div className='rowInformacion'>
-            <img src="../img/nombre.png" alt="Icono Persona" />
+            <img className='iconoUbicacionTelefono' src="../img/nombre.png" alt="Icono Persona" />
             <h4 className='informacionPersonal'>Timoteo Ruiz de Arcaute</h4>
           </div>
           <div className='rowInformacion'>
@@ -14,7 +14,7 @@ const Contacto = () => {
             <h4 className='informacionPersonal'>Edad: 25 años</h4>
           </div>
           <div className='rowInformacion'>
-            <img src="../img/mapa.png" alt="Icono Ubicacion" />
+            <img className='iconoUbicacionTelefono' src="../img/mapa.png" alt="Icono Ubicacion" />
             <h4 className='informacionPersonal'>La Plata, Buenos Aires, Argentina</h4>
           </div>
           <div className='estudiosContacto'>
