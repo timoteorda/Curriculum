@@ -30,6 +30,9 @@ footer{
 
 .subFooter{
     height: 2rem;
+    @include telefono{
+        height: 4rem;
+    }
 }
 
 .derechos{
