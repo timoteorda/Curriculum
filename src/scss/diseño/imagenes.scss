@@ -2,6 +2,11 @@
     width: 20rem;
     height: 10rem;
     margin-left: 5rem;
+    @include telefono{
+        margin-left: -1rem;
+        width: 15rem;
+        height: 10rem;
+    }
 }
 
 .fotoTimoteo{
@@ -10,9 +15,20 @@
     margin-left: 52%;
     margin-top: 5.5rem;
     border-radius: 400px;
+
+    @include telefono{
+        width: 100%;
+        margin-left: -2%;
+        height: 20rem;
+        margin-top: 3rem;
+    }
 }
 
 .fotoWhaikau{
     width: 100%;
     height: 25rem;
+    @include telefono{
+        width: 100%;
+        height: 15rem;
+    }
 }

@@ -1,3 +1,6 @@
+@import "../utilities/mediaquerys";
+
+
 .contenedorContacto {
   width: 80%;
   margin-left: 10%;
@@ -5,6 +8,11 @@
   flex-direction: row;
   margin-bottom: 5rem;
   justify-content: space-around;
+  @include telefono{
+    flex-direction: column;
+    width: 80%;
+    margin-left: 2rem;
+}
 }
 
 .rowInformacion{
@@ -47,12 +55,18 @@
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
+    @include telefono{
+        width: 90%;
+    }
 }
 
 .rowRedes{
     margin-top: 2rem;
     display: flex;
     margin-left: 8rem;
+    @include telefono{
+        margin-left: 0rem;
+    }
 }
 
 .visitaRed{

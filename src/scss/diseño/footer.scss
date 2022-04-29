@@ -37,4 +37,7 @@ footer{
     margin-left: 32%;
     margin-top: 1rem;
     font-size: 1.2rem;
+    @include telefono{
+        margin-left: 1rem;
+    }
 }
