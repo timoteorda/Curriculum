@@ -9,7 +9,7 @@ const CarouselWhaikau = () => {
         <Carousel.Item>
             <img
             className="fotoWhaikau"
-            src="../img/whaikauUno.png"
+            src="../img/whaikauUno.jpg"
             alt="First slide"
             />
         </Carousel.Item>
