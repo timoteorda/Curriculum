@@ -37,7 +37,7 @@ const CarouselWhaikau = () => {
         <Carousel.Item>
             <img
             className="fotoWhaikau"
-            src='../img/whaikauCinco.png'
+            src='../img/fotoTimoteo.jpeg'
             alt="Fifht slide"
             />
         </Carousel.Item>
