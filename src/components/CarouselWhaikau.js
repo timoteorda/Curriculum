@@ -16,29 +16,22 @@ const CarouselWhaikau = () => {
         <Carousel.Item>
             <img
             className="fotoWhaikau"
-            src="../img/whaikauDos.png"
+            src="../img/whaikauDos.jpg"
             alt="Second slide"
             />
         </Carousel.Item>
         <Carousel.Item>
             <img
             className="fotoWhaikau"
-            src="../img/whaikauTres.png"
+            src="../img/whaikauTres.jpg"
             alt="Third slide"
             />
         </Carousel.Item>
         <Carousel.Item>
             <img
             className="fotoWhaikau"
-            src='../img/whaikauCuatro.png'
+            src='../img/whaikauCuatro.jpg'
             alt="Fourth slide"
-            />
-        </Carousel.Item>
-        <Carousel.Item>
-            <img
-            className="fotoWhaikau"
-            src='../img/fotoTimoteo.jpeg'
-            alt="Fifht slide"
             />
         </Carousel.Item>
     </Carousel>
