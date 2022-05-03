@@ -13,6 +13,7 @@ const MisProyectos = () => {
             <div className='carouselWhaikau'><CarouselWhaikau/></div>
             <a href="https://whaikau.vercel.app/" target='_blank'><button className='botonProbarProyecto'>Probalo vos mismo!</button></a>
         </div>
+        <h3 className='finalProyectos'>Mas proyectos serán presentados a la brevedad!</h3>
     </>
   )
 }

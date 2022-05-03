@@ -14,7 +14,7 @@
     width: 80%;
     margin-left: 10%;
     margin-top: 2rem;
-    margin-bottom: 15rem;
+    margin-bottom: 10rem;
     @include telefono{
         width: 90%;
     }
@@ -52,7 +52,7 @@
 
 .botonProbarProyecto{
     margin-top: 5rem;
-    margin-left: 40%;
+    margin-left: 41% !important;
     margin-bottom: 2rem;
     border: none;
     color: white;
@@ -74,4 +74,10 @@
 
 .botonProbarProyecto:hover{
     background-color: rgb(50, 50, 50);
+}
+
+.finalProyectos{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10rem;
 }
